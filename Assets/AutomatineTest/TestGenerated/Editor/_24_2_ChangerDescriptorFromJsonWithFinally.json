@@ -1,0 +1,1 @@
+{"changerId":"TestRouteId2","changerName":"TestRoute2","rootAutoId":"parentAutoId","comments":["this changer is for change move or not."],"branchs":[],"finallyBranch":{"finallyAutoId":"MoveAuto","inheritTimelineConditions":["Move"]}}
