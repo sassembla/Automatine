@@ -1,6 +1,8 @@
 
 # Automatine
 
+![hahaha](https://github.com/sassembla/Automatine/blob/master/screenshot.png "here")
+
 ## TOC
 	
 1. Introduction & Motivations
@@ -115,6 +117,5 @@ Auto / Timeline / Tack(鋲) / Coroutine | ConditionKey & Value
 
 
 ## APIs
-
 
 in progress...
