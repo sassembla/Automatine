@@ -574,7 +574,9 @@ namespace Automatine
             var shouldCompile = false;
             using (new EditorGUILayout.HorizontalScope(GUI.skin.box, GUILayout.Width(viewWidth), GUILayout.Height(AutomatineGUISettings.HEADER_HEIGHT)))
             {
-                if (GUILayout.Button(string.Empty, "TL tab plus right", GUILayout.Width(AutomatineGUISettings.CONDITION_INSPECTOR_BOX_WIDTH / 2)))
+                GUILayout.Label("Auto");
+
+                if (GUILayout.Button(string.Empty, "OL Plus", GUILayout.Width(20)))
                 {
                     if (newAutoWindow == null) newAutoWindow = CreateInstance<NewAutoWindow>();
                     newAutoWindow.Emit = AutomatineEmit;
@@ -582,7 +584,6 @@ namespace Automatine
                     newAutoWindow.ShowAuxWindow();
                 }
 
-                GUILayout.Label("Auto");
                 if (!HasSelectedAuto()) return;// automatically create new auto.
 
                 var activeAutoName = ModifyingAuto().name;
